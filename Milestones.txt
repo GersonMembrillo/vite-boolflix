@@ -1,0 +1,28 @@
+Primo tentativo di Milestones (yay):
+
+1 - PREPARARE LA PARTE GRAFICA (base):
+
+Preparare le componenti in base alla grafica del progetto
+
+A) HeaderComponent che avrà all'interno un'altro componente per la barra di ricerca, in base al titolo mostrerà il contenuto inerente (HeaderComponent > SearchBar)
+B) MainComponent che avrà all'interno due componente che conterrà tutti i film & serie tv, queste due componenti avranno all'interno una componente che penserà alle singole schede dei film e serie TV.
+{MainComponent > [(MovieList > Movie)(SeriesList > Series)]}
+
+2 - PREPARARE LE CARD
+
+Rendere la singola card dinamica
+
+A) Aumentare o ridurre il numero di card in base alle dimensioni dello schermo
+B) Girare la card cliccando sull'immagine per vedere il contenuto del/la film/serie (temporaneo, si può migliorare)
+
+3 - RICERCA TRAMITE PAROLA CHIAVE
+
+Rendere visibili le card in base alle parole chiavi scritte nella barra di ricerca, sia per titolo che per descrizione.
+
+4 - POSSIBILI MIGLIORAMENTI
+
+A) Rendere più dinamiche le card dei film (la presentazione dello stesso, tipo i trailer al click oppure al passaggio del cursore, rendere le card in base a certi parametri tipo il genere o la fascia d'età delle slide, ecc)
+
+B) Aggiungere alla HeaderComponent un menu per rendere visibile solo film o solo serie tv.
+
+3) Premendo il logo ritornare alla situazione di partenza (Home)
